@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hi, I'm Lauren and this is my portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.scss">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+</head>
+<body>
+
+<div id="intro">
+	<div class="container">
+		<div id="logo-container">
+			<a href="#home" id="logo-link">
+				<img src="https://user-images.githubusercontent.com/69159757/91324573-23df6e00-e7ba-11ea-9bea-729e9a6a6fd5.png" alt="LM cube logo color" id="logo">
+			</a>
+		</div>
+	</div>
+</div>
+
+<nav id="navbar"> <!--navbar-->
+
+	<div class="container container-nav"> <!--80/90% width-->
+
+		<a href="#home" class="nav symbol"><i class="fas fa-home"></i></a> <!--symbols for mobile-->
+		<a href="#work" class="nav symbol"><i class="fas fa-laptop-code"></i></a>
+		<a href="#contact" class="nav symbol"><i class="fas fa-address-card"></i></a>
+
+		<a href="#home" class="nav link">Home</a> <!--words for desktop-->
+		<a href="#work" class="nav link">Projects</a>
+		<a href="#contact" class="nav link">Contact</a>
+
+	</div>
+
+</nav>
+
+<div id="home"> <!--title page-->
+
+	<div class="container" id="title-container"> <!--80/90% width-->
+
+		<img src="https://user-images.githubusercontent.com/69159757/91324611-2b9f1280-e7ba-11ea-883c-34d6967a8251.png" alt="background border" class="border" id="border-portrait">
+    <img src="https://user-images.githubusercontent.com/69159757/91335850-e59d7b00-e7c8-11ea-8d6a-2e2542be41e1.png" alt="background border landscape" class="border" id="border-landscape">
+    
+
+		<h1 class="main-title" id="main-title-top">Hi, <span class="underline-two main-span">I'm Lauren</span></h1>
+		<h2 class="main-title" id="main-title-bottom">This is front-end development portfolio.
+      
+	</div>
+
+</div>
+
+<div class="page" id="work">
+
+	<div class="container"> <!--80/90% width-->
+
+	<h2 id="work-title">Some of my <span class="underline-main">Projects</span>...</h2>
+
+<div class="grid container-projects" id="projects"> <!--grid of project cards-->
+
+        <a href="https://codepen.io/lauren-a-mac/pen/wvMYrOd" target="_blank" class="card-link"> <!--link wrapper-->
+            <div class="card project-tile"> <!--card-->
+              <img id="calc-img" src="https://user-images.githubusercontent.com/69159757/91315506-ab73af80-e7af-11ea-8615-ff16b7d176fb.jpg" alt="javascript calculator"> <!--image-->
+              <div class="card-body"> <!--card body-->
+                <h3 class="card-title"><span class="hover-underline">Javascript Calculator</span></h3> <!--card title-->
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span><i class="devicon-javascript-plain tool"></i><span class="tooltip">Javascript</span><i class="devicon-jquery-plain tool"></i><span class="tooltip">jQuery</span></p> <!--symbols-->
+              </div>
+            </div>
+          </a>        
+
+          <a href="https://codepen.io/Lauren33L/pen/bGELajj" target="_blank" class="card-link">
+            <div class="card project-tile">
+              <img id="score-img" src="https://user-images.githubusercontent.com/69159757/91315521-ad3d7300-e7af-11ea-904b-7ecc5df742a0.jpg" alt="Score pad">
+              <div class="card-body">
+                <h3 class="card-title"><span class="hover-underline">Score Pad</span></h3>
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span><i class="devicon-javascript-plain tool"></i><span class="tooltip">Javascript</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://codepen.io/Lauren33L/pen/eYJGYGw" target="_blank" class="card-link">
+            <div class="card project-tile">
+              <img id="camera-img" src="https://user-images.githubusercontent.com/69159757/91315526-add60980-e7af-11ea-9bb0-b7a506cc8c8e.jpg" alt="Camera technical documentation">
+              <div class="card-body">
+                <h3 class="card-title"><span class="hover-underline">Technical Documentation</span></h3>
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://codepen.io/lauren-a-mac/pen/KKVyzBq" target="_blank" class="card-link">
+            <div class="card project-tile">
+              <img id="palin-img" src="https://user-images.githubusercontent.com/69159757/91315516-aca4dc80-e7af-11ea-9303-6c46ca18df55.jpg" alt="Palindrome checker">
+              <div class="card-body">
+                <h3 class="card-title"><span class="hover-underline">Palindrome Checker</span></h3>
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span><i class="devicon-javascript-plain tool"></i><span class="tooltip">Javascript</span></p>
+              </div>
+            </div>
+          </a>        
+
+          <a href="https://codepen.io/Lauren33L/pen/zYrZMWd" target="_blank" class="card-link">
+            <div class="card project-tile">
+              <img id="landing-img" src="https://user-images.githubusercontent.com/69159757/91315513-ac0c4600-e7af-11ea-9dd6-0b53f7253cb7.jpg" alt="Product landing page">
+              <div class="card-body">
+                <h3 class="card-title"><span class="hover-underline">Product Landing Page</span></h3>
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span><i class="devicon-illustrator-line tool"></i><span class="tooltip">Illustrator</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://codepen.io/Lauren33L/pen/OJMOyyW" target="_blank" class="card-link">
+            <div class="card project-tile">
+              <img id="survey-img" src="https://user-images.githubusercontent.com/69159757/91315524-add60980-e7af-11ea-9770-d235616bce40.jpg" alt="Survey form">
+              <div class="card-body">
+                <h3 class="card-title"><span class="hover-underline">Survey Form</span></h3>
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span><i class="devicon-illustrator-line tool"></i><span class="tooltip">Illustrator</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://codepen.io/Lauren33L/pen/Vwepqpo" target="_blank" class="card-link">
+            <div class="card project-tile">
+              <img id="blog-img" src="https://user-images.githubusercontent.com/69159757/91315504-aa428280-e7af-11ea-9357-02ff1ca8703d.jpg" alt="Blog homepage">
+              <div class="card-body">
+                <h3 class="card-title"><span class="hover-underline">Blog</span></h3>
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span></p>
+              </div> 
+            </div>
+          </a>
+
+          <a href="https://codepen.io/Lauren33L/pen/MWKbjdg" target="_blank" class="card-link">
+            <div class="card project-tile">
+              <img id="copernicus-img" src="https://user-images.githubusercontent.com/69159757/91315509-ab73af80-e7af-11ea-84c3-7d3c1f36a9bf.jpg" alt="Copernicus tribute page">
+              <div class="card-body">
+                <h3 class="card-title"><span class="hover-underline">Tribute Page</span></h3>
+                <p class="tool-container"><i class="devicon-html5-plain tool"></i><span class="tooltip">HTML5</span><i class="devicon-css3-plain tool"></i><span class="tooltip">CSS3</span></p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+	</div>
+	
+</div>
+
+<footer id="contact">
+
+    <div class="container"> <!--80/90% width-->
+
+        <h2 id="contact-title">Where to <span class="underline-two">find me</span>...</h2>  
+
+        <div class="container-footer">
+    
+            <a href="https://codepen.io/lauren-a-mac" target="_blank" class="nav symbol"><i class="fab fa-codepen"></i></a> <!--symbols for mobile-->
+            <a href="https://www.freecodecamp.org/lauren-a-mac" target="_blank" class="nav symbol" id="profile-link"><i class="fab fa-free-code-camp"></i></a>
+    		<a href="mailto:lauren.a.mac@protonmail.com" class="nav symbol"><i class="fas fa-envelope"></i></a>
+
+    		<a href="https://codepen.io/lauren-a-mac" target="_blank" class="nav link">Code Pen Profile</a> <!--links for desktop-->
+    		<a href="https://www.freecodecamp.org/lauren-a-mac" target="_blank" class="nav link" id="profile-link">Free Code Camp profile</a>
+    		<a href="mailto:lauren-a-mac@protonmail.com" class="nav link">Send me an email</a>
+
+  		</div>
+	</div>
+
+</footer>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
