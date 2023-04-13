@@ -247,7 +247,7 @@ img {
 .tool:hover {
   color: #f0f757;
 }
-.tool:hover + .tooltip {
+.tool:hover .tooltip {
   display: inline;
 }
 .tooltip {
